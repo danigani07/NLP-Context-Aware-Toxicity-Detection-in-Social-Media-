@@ -30,7 +30,7 @@ print(f"Precision: {precision}")
 print(f"Recall: {recall}")
 print(f"F1 Score: {f1}")
 
-new_comment = ["You are the worst!"]
+new_comment = ["Truly impressive.I have never seen anyone mess up that badly before."]
 new_comment_tfidf = vectorizer.transform(new_comment)
 prediction = model.predict(new_comment_tfidf)
 
